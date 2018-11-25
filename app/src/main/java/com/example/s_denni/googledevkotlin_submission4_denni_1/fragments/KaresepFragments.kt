@@ -10,6 +10,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import com.example.s_denni.googledevkotlin_submission4_denni_1.R
+import com.example.s_denni.googledevkotlin_submission4_denni_1.R.id.list_laga_kareseps
 import com.example.s_denni.googledevkotlin_submission4_denni_1.activities.LagaDetailActivity
 import com.example.s_denni.googledevkotlin_submission4_denni_1.adapters.KaresepAdapter
 import com.example.s_denni.googledevkotlin_submission4_denni_1.basisdata.database
@@ -85,6 +86,7 @@ class KaresepFragments : Fragment(), AnkoComponent<Context> {
                     lparams (width = matchParent, height = wrapContent)
 
                     reusableView = recyclerView {
+                        id = list_laga_kareseps
                         lparams (width = matchParent, height = wrapContent)
                         layoutManager = android.support.v7.widget.LinearLayoutManager(ctx)
                     }

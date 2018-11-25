@@ -24,4 +24,5 @@
     <item name="substitute_k" type="id"/>
     <item name="list_laga_kamari" type="id"/>
     <item name="list_laga_enjing" type="id"/>
+    <item name="list_laga_kareseps" type="id"/>
 </resources>

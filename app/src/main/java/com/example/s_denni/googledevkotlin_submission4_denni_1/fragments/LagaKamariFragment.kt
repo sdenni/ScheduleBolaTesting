@@ -97,8 +97,6 @@ class LagaKamariFragment : Fragment(), AnkoComponent<Context>, MyLagaView {
     }
 
     override fun showEventList(dataKamari: List<MyLaga>) {
-        Log.d("TRACE", "showEventListKamariFragment laga "+lagaKamaris.size)
-        Log.d("TRACE", "showEventListKamariFragment data "+dataKamari.size)
         swipeRefresh.isRefreshing = false
         lagaKamaris.clear()
         lagaKamaris.addAll(dataKamari)
